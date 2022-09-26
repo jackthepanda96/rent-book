@@ -8,6 +8,7 @@ type MentorController struct {
 
 func (mc *MentorController) GetAllMentor() ([]model.Mentor, error) {
 	var result []model.Mentor
+
 	return result, nil
 }
 
