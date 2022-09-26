@@ -6,8 +6,9 @@ type MentorController struct {
 	Model model.MentorModel
 }
 
-func GetAll() {
-	// Ini Get All
+func (mc *MentorController) GetAllMentor() ([]model.Mentor, error) {
+	var result []model.Mentor
+	return result, nil
 }
 
 func Search() {
