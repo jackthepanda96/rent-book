@@ -16,7 +16,11 @@ func (mc MentorController) GetAll([]model.Mentor, error) {
 =======
 func (mc *MentorController) GetAllMentor() ([]model.Mentor, error) {
 	var result []model.Mentor
+<<<<<<< HEAD
 >>>>>>> GetAllMentor Controller
+=======
+
+>>>>>>> GetAllMentor 1
 	return result, nil
 }
 
